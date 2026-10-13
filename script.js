@@ -1,7 +1,7 @@
 // ===== Edit your details here =====
 const CONFIG = {
-names: ["Her Name", "His Name"],
-date: "2021-06-15T18:00:00", // wedding date: YYYY-MM-DDTHH:MM:SS
+names: ["Mowda", "Moataz"],
+date: "2020-09-25T18:00:00", // wedding date: YYYY-MM-DDTHH:MM:SS
 moments: [
     { when: "Where it began", title: "The day we met", text: "I did not know it yet, but my whole life was about to change.", src: "images/photo1.jpg" },
     { when: "A promise", title: "The day we said yes", text: "Two hearts, one decision, and a lifetime ahead of us.", src: "images/photo2.jpg" },
