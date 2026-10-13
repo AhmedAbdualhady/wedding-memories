@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Happy Anniversary</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,500;1,500&family=Cairo:wght@400;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="cover">
+<svg class="mono" viewBox="0 0 120 120" aria-hidden="true">
+<circle cx="60" cy="60" r="56" pathLength="1"/>
+<text id="initials" x="60" y="70" text-anchor="middle"></text>
+</svg>
+<p class="sub rise" style="--d:.9s">Celebrating our anniversary</p>
+<h1 id="names" class="rise" style="--d:1.1s" dir="auto"></h1>
+<p id="dateText" class="date rise" style="--d:1.5s"></p>
+<span class="cue" aria-hidden="true"></span>
+</section>
+
+<section class="together">
+<h2>Together for</h2>
+<div id="units" class="units"></div>
+<p class="ever">and every moment still counts.</p>
+</section>
+
+<section class="story">
+<h2>Our story</h2>
+<div id="moments"></div>
+</section>
+
+<section class="letter"><div id="letter"></div></section>
+
+<section class="finale">
+<button id="toast" class="btn">Raise a glass</button>
+<h2 id="closing" class="closing" dir="auto"></h2>
+</section>
+
+<canvas id="fx" aria-hidden="true"></canvas>
+<script src="script.js"></script>
+</body>
+</html>
+
